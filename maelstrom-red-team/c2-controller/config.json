@@ -1,0 +1,5 @@
+[
+    { "hostname": "bot-alpha", "ip": "10.0.X.XX" },
+    { "hostname": "bot-bravo", "ip": "10.0.X.XX" },
+    { "hostname": "bot-charlie", "ip": "10.0.X.XX" }
+]

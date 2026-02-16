@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.env
+id_rsa
+logs/*.log
+docs/
+payloads/sensitive_data.txt
+maelstrom-red-team/Guide for Ubuntu Bot Nodes deployment.txt
+target-profiles/sovereign-shield.yaml

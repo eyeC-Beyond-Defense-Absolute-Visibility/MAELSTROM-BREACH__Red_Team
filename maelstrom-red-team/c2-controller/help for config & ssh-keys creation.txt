@@ -1,0 +1,35 @@
+⚙️ Configuration File: c2-controller/config.json
+
+  This file allows the Kali controller to identify and locate its "soldiers" (Ubuntu Nodes).
+
+JSON
+[
+    { "hostname": "bot-alpha", "ip": "10.0.X.XX" },
+    { "hostname": "bot-bravo", "ip": "10.0.X.XX" },
+    { "hostname": "bot-charlie", "ip": "10.0.X.XX" }
+]
+
+
+
+
+🛠️ Why this approach for your GitHub?
+
+  Ops: Using subprocess and SSH, simulates authentic lateral movement and remote code execution (RCE).
+
+Modularity: A new attack vector can be easily implemented (e.g., http-slowloris) simply by adding an option in argparse and a corresponding module on the bots.
+
+Purple Team Demonstration: it's possible to demonstrate how this controller measures the latency between the attack launch on Kali and the detection by eBPF on the K3s cluster.
+
+
+
+
+💡 Prerequisites for Execution
+
+  To ensure the Kali controller can manage the bots without prompting for a password every time, an SSH key must be generate on Kali and distribute it to each Ubuntu bot:
+
+Commands:
+# On Kali Linux
+ssh-keygen -t ed25519
+ssh-copy-id user@10.0.0.10
+ssh-copy-id user@10.0.0.11
+ssh-copy-id user@10.0.0.12
