@@ -1,0 +1,43 @@
+{
+  "_comment": "Maelstrom-Breach: Multi-Stage Attack Scenario (Campaign Beta)",
+  "campaign_metadata": {
+    "name": "Storm-Front",
+    "difficulty": "Advanced",
+    "goal": "Data Exfiltration & Persistent Access"
+  },
+  "phases": [
+    {
+      "order": 1,
+      "name": "Service Disruption",
+      "technique": "Network Denial of Service (T1498)",
+      "module": "dos_syn_flood",
+      "parameters": {
+        "target_port": 80,
+        "intensity": "medium",
+        "purpose": "Distract the SOC while exploitation begins"
+      }
+    },
+    {
+      "order": 2,
+      "name": "Web Vulnerability Scan",
+      "technique": "Exploit Public-Facing Application (T1190)",
+      "module": "sql_injection_probe",
+      "parameters": {
+        "payload": "admin' OR '1'='1' --",
+        "target_url": "/api/v1/login",
+        "goal": "Extract database version and user table"
+      }
+    },
+    {
+      "order": 3,
+      "name": "Initial Access",
+      "technique": "Command and Scripting Interpreter (T1059)",
+      "module": "reverse_shell_delivery",
+      "parameters": {
+        "payload_type": "python_oneliner",
+        "lhost": "192.168.1.50",
+        "lport": 4444
+      }
+    }
+  ]
+}

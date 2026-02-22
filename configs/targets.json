@@ -1,0 +1,17 @@
+{
+  "inventory_name": "eyeC-Lab-V2",
+  "targets": [
+    {
+      "hostname": "metasploitable3",
+      "ip": "192.168.1.200",
+      "os": "Linux",
+      "criticality": "High"
+    },
+    {
+      "hostname": "win-server-2019",
+      "ip": "192.168.1.50",
+      "os": "Windows",
+      "criticality": "Critical"
+    }
+  ]
+}
