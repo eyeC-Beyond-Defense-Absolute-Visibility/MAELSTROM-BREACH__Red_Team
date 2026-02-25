@@ -1,13 +1,13 @@
-# 🌪️ Maelstrom-Breach: The Chaos Engine
+# 🌪️ Maelstrom Breach: The Chaos Engine
 
 > ## Note
-> *Maelstrom-Breach is one of the eyeC Triplets*
+> *Maelstrom Breach is one of the eyeC Triplets*
 > 
 > *🔗 [Explore the project](https://github.com/eyeC-DevSecOps-project)*
 
 > *"To build a shield, you must first understand the storm."*
 
-Maelstrom-Breach is the **Red Team component** of the eyeC ecosystem. It is an **Adversary Emulation Engine** designed to stress-test the detection capabilities of Sentinel-Trace and the enforcement protocols of Sovereign-Shield.
+Maelstrom Breach is the **Red Team component** of the eyeC ecosystem. It is an **Adversary Emulation Engine** designed to stress-test the detection capabilities of Sentinel-Trace and the enforcement protocols of Sovereign-Shield.
 
 Rather than simple scripts, Maelstrom uses structured **Campaigns** to simulate the lifecycle of an Advanced Persistent Threat (APT).
 
@@ -15,7 +15,7 @@ Rather than simple scripts, Maelstrom uses structured **Campaigns** to simulate 
 
 ## 🎯 Offensive Scope
 
-Maelstrom-Breach automates multi-stage attacks mapped directly to the **MITRE ATT&CK** framework:
+Maelstrom Breach automates multi-stage attacks mapped directly to the **MITRE ATT&CK** framework:
 
 * **Reconnaissance (T1595):** Automated service discovery and vulnerability probing.
 * **Resource Hijacking (T1498):** Network-level DoS/DDoS simulation.
