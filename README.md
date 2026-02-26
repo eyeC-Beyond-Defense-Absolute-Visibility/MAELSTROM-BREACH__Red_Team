@@ -1,3 +1,10 @@
+![C++](https://img.shields.io/badge/C++-Controller-00599C?logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/Python-Exploit_Engine-3776AB?logo=python&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-Payloads-4EAA25?logo=gnu-bash&logoColor=white) ![JSON](https://img.shields.io/badge/JSON-Campaigns-000000?logo=json&logoColor=white)
+
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-APT_Simulation-ff6600) ![Red Team](https://img.shields.io/badge/Role-Red_Team-red) ![Validation](https://img.shields.io/badge/Purpose-Security_Validation-blueviolet)
+
+![Metasploitable](https://img.shields.io/badge/Metasploitable-Target-764ABC?logo=metasploit&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-Target-0078D6?logo=windows&logoColor=white) ![Debian](https://img.shields.io/badge/Debian-Target-A81D33?logo=debian&logoColor=white)
+
+
 # 🌪️ Maelstrom Breach: The Chaos Engine
 
 > ## Note
